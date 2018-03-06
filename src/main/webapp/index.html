@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<meta name=viewport
+	content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>ocarmon</title>
+
+</head>
+<body>
+<script src="http://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+<script type="text/javascript">
+var obj = new WxLogin({
+    id:"login_container", 
+    appid: "wx499812d80a476a62", 
+    scope: "snsapi_login", 
+    redirect_uri: "https%3a%2f%2fwww.ocarmon.com/weixin/calUserInfo.do",
+    state: "STATE",
+  });
+</script>
+	<a href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx499812d80a476a62&redirect_uri=https%3a%2f%2fwww.ocarmon.com/weixin/calUserInfo.do&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect">测试获取</a>
+
+</body>
+</html>
